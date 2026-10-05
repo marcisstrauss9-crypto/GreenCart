@@ -3,29 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="style.css">
     <title>Zalais groz</title>
 </head>
 <body>
     <header>
-        <a href="SakumaLapa"><img  id="SakumaLapasLogo" src="https://media.istockphoto.com/id/898475764/vector/shopping-trolley-cart-icon-in-green-circle-vector.jpg?s=612x612&w=0&k=20&c=W_b90qFRpj_FyLyI19xWqB6EoNSuJYwMSN9nnKkE9Hk=" alt="Zala groza logo"></a>
-        <div id="MeklesanasZona">
-            <input type="text" placeholder="Mekle preci">
-        </div>
-        <div id="Profils">
-            <img id="Profilabilde" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKjz1gVQ92u98ghfzfAf7EpyXj3YRCLujbhUYTqSt0Dg&s=10" alt="profila bilde">
-            <p>Ienakt/Registeties</p>
-        </div>
-        <nav id="NavBarVertikali">
-            <a href="">darzeni</a>
-            <a href="">augli</a>
-            <a href="">maize</a>
-            <a href="">gala</a>
-            <a href="">saldeta partika</a>
-            <a href="">iepakota partika</a>
-            <a href="">piena produkti</a>
-            <a href="">dzerieni</a>
+        <nav class="navbar augsejasiNav">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center gap-2">
+                    <a href="SakumaLapa"><img  id="SakumaLapasLogo" src="https://static.vecteezy.com/system/resources/previews/059/370/860/non_2x/realistic-green-shopping-cart-transparent-background-free-png.png" alt="Zala groza logo"></a>
+                    <p class="Nosaukums">GreenCart</p>
+                </div>
+                <div class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Meklē preci" aria-label="Meklē preci">
+                    <button class="btn btn-outline-success" type="submit">Meklēt</button>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <img id="Profilabilde" src="https://static.vecteezy.com/system/resources/thumbnails/053/964/117/small/a-silhouette-of-a-person-with-a-circular-head-and-a-minimalistic-body-structure-showcasing-a-simple-design-png.png" alt="profila bilde">
+                    <p>Ienakt/Registeties</p>
+                </div>
+            </div>
         </nav>
+
+        <nav class="navbar navbar-dark PrecuNavBars">
+            <div class="container-fluid">
+                <ul class="navbar-nav flex-column flex-wrap gap-3">
+                    <li class="nav-item"><a class="nav-link" href="">darzeni</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">augli</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">maize</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">gala</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">saldeta partika</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">iepakota partika</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">piena produkti</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">dzerieni</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
     </header>
     <main>
         <div id="AkcijasReklamas">
@@ -53,6 +70,7 @@
         <p>MasterCard</p>
 
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script scr="script.js"></script>
 </body>
 </html>
