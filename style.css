@@ -1,0 +1,19 @@
+#SakumaLapasLogo{
+    width: 50px;
+    height: 50px;
+}
+#NavBarVertikali{
+    background-color: rgb(146, 146, 229);
+}
+#Profilabilde{
+    width: 50px;
+    height: 50px;
+}
+#AkcijasReklamas{
+    display: flex;
+    gap: 10px;
+    border: solid black 2px;
+}
+footer{
+    background-color: aqua;
+}
