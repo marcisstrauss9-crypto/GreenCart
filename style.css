@@ -16,6 +16,11 @@ body{
 }
 .PrecuNavBars{
     background-color: rgb(42, 165, 83);
+    width: 200px;
+    min-width: 100px;
+}
+.nav-item:hover{
+    background-color: rgb(98, 220, 138);
 }
 #Profilabilde{
     width: 70px;
@@ -32,4 +37,12 @@ footer{
 }
 .augsejasiNav{
     background-color: red;
+}
+.galvenaisSaturs{
+    display: flex;
+    align-items: flex-start;
+}
+#AkcijasReklamas {
+    flex-grow: 1; /* Aizņem visu atlikušo ekrāna vietu pa labi */
+    padding: 20px;
 }
